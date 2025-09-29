@@ -24,3 +24,8 @@ Source the setup file
 ```
 source install/setup.bash 
 ```
+To launch the package
+
+```
+ros2 launch arabian_robot arabian.launch.py 
+```
