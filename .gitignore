@@ -1,0 +1,21 @@
+# ROS2 build artifacts
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# VSCode settings
+.vscode/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Other system files
+.DS_Store
+Thumbs.db
