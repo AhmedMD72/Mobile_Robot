@@ -80,7 +80,7 @@ def generate_launch_description():
         nodeRobotStatePublisher,
         bridge,
         # RobotStateJoint,
-        #rviz2Node
+        rviz2Node
     ])
 
   
