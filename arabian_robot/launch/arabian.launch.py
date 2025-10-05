@@ -83,4 +83,5 @@ def generate_launch_description():
         rviz2Node
     ])
 
+# gazebo with RVIZ
   
