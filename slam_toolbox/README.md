@@ -340,6 +340,8 @@ cd ~/ws
 colcon build
 source install/setup.bash
 ```
+
+```
 rosdep install -q -y -r --from-paths src --ignore-src
 ```
 
