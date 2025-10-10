@@ -15,7 +15,7 @@ def generate_launch_description():
     modeFileRelativePath = 'urdf/arabian_robot.xacro'
 
     ## world
-    worldfileRelativePath = 'worlds/empty.sdf'
+    worldfileRelativePath = 'worlds/simple_map.sdf'
 
     pathModeFile = os.path.join(get_package_share_directory(namePKG), modeFileRelativePath)
 
@@ -80,7 +80,7 @@ def generate_launch_description():
         nodeRobotStatePublisher,
         bridge,
         # RobotStateJoint,
-        rviz2Node
+    #    rviz2Node
     ])
 
 # gazebo with RVIZ
