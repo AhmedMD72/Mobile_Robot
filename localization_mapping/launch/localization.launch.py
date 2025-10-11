@@ -9,7 +9,7 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
 
-    pkg_bme_ros2_navigation = get_package_share_directory('bme_ros2_navigation')
+    pkg_bme_ros2_navigation = get_package_share_directory('localization_mapping')
 
     gazebo_models_path, ignore_last_dir = os.path.split(pkg_bme_ros2_navigation)
     os.environ["GZ_SIM_RESOURCE_PATH"] += os.pathsep + gazebo_models_path
@@ -44,13 +44,13 @@ def generate_launch_description():
     )
 
     localization_params_path = os.path.join(
-        get_package_share_directory('bme_ros2_navigation'),
+        get_package_share_directory('localization_mapping'),
         'config',
         'amcl_localization.yaml'
     )
 
     map_file_path = os.path.join(
-        get_package_share_directory('bme_ros2_navigation'),
+        get_package_share_directory('localization_mapping'),
         'maps',
         'simple_map.yaml'
     )
