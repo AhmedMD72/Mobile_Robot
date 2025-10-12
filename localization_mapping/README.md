@@ -27,3 +27,14 @@ Save map
 ```
 ros2 run nav2_map_server map_saver_cli -f ~/ws/src/localization_mapping/maps/map_name
 ```
+
+# Navigation
+
+Nanigation launch file 
+```
+ros2 launch localization_mapping navigation.launch.py 
+```
+Open spawn robot
+``` 
+ros2 launch arabian_robot arabian_localization.launch.py 
+```

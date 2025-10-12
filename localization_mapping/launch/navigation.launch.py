@@ -50,19 +50,19 @@ def generate_launch_description():
     )
 
     localization_params_path = os.path.join(
-        get_package_share_directory('bme_ros2_navigation'),
+        get_package_share_directory('localization_mapping'),
         'config',
         'amcl_localization.yaml'
     )
 
     navigation_params_path = os.path.join(
-        get_package_share_directory('bme_ros2_navigation'),
+        get_package_share_directory('localization_mapping'),
         'config',
         'navigation.yaml'
     )
 
     map_file_path = os.path.join(
-        get_package_share_directory('bme_ros2_navigation'),
+        get_package_share_directory('localization_mapping'),
         'maps',
         'simple_map.yaml'
     )

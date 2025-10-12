@@ -14,7 +14,7 @@
     <right_joint>rear_right_wheel_joint</right_joint>
 
     <wheel_separation>0.34</wheel_separation>
-    <wheel_radius>0.0488</wheel_radius>
+    <wheel_radius>0.075</wheel_radius>
     <torque>20</torque>
     <!-- odometry config -->
     <odom_topic>odom</odom_topic>
