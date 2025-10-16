@@ -54,7 +54,7 @@
         <visualize>true</visualize>
         <topic>imu</topic>
         <enable_metrics>true</enable_metrics>
-        <gz_frame_id>base_link</gz_frame_id>
+        <gz_frame_id>imu_Link</gz_frame_id>
     </sensor>
 </gazebo> 
 
@@ -73,7 +73,7 @@
       <always_on>1</always_on>
       <update_rate>1</update_rate>
       <topic>navsat</topic>
-      <gz_frame_id>base_link</gz_frame_id>
+      <gz_frame_id>gps_Link</gz_frame_id>
     </sensor>
   </gazebo>
 
