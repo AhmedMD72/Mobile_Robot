@@ -25,3 +25,23 @@ To launch the package
 ```
 ros2 launch arabian_robot arabian.launch.py 
 ```
+
+# joystick Controller
+
+Install
+```
+ sudo apt install joystick jstest-gtk evtest 
+```
+test
+```
+evtest
+jstest-gtk 
+ros2 run joy joy_enumerate_devices 
+ros2 run joy joy_node 
+ros2 run joy_tester test_joy
+```
+```
+ros2 launch arabian_robot joystick.launch.py 
+```
+
+

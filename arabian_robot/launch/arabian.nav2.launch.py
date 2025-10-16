@@ -11,7 +11,7 @@ import xacro
 def generate_launch_description():
 
     robot_xacro_name ="arabian_robot"
-
+ 
     namePKG=get_package_share_directory("arabian_robot")
 
     modeFileRelativePath = 'urdf/arabian_robot.xacro'
@@ -62,13 +62,12 @@ def generate_launch_description():
         name='joint_state_publisher',
         output='screen'
     )
-
     rviz_launch_arg = DeclareLaunchArgument(
         'rviz', default_value='true',
         description='Open RViz'
     )
     rviz_config_arg = DeclareLaunchArgument(
-        'rviz_config', default_value='default.rviz',
+        'rviz_config', default_value='gps.rviz',
         description='RViz config file'
     )
     sim_time_arg = DeclareLaunchArgument(
@@ -99,9 +98,6 @@ def generate_launch_description():
         rviz_launch_arg,
         rviz_config_arg,
         sim_time_arg,
+        rviz2Node,
         # RobotStateJoint,
-        rviz2Node
     ])
-
-# gazebo with RVIZ
-  
