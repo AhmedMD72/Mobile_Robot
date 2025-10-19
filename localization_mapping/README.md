@@ -6,7 +6,7 @@ ros2 launch localization_mapping localization.launch.py
 ```
 Open spawn robot
 ```
-ros2 launch arabian_robot arabian_localization.launch.py 
+ros2 launch arabian_robot arabian_localization_Nav2.launch.py 
 ```
 show pose
 ```
@@ -21,7 +21,7 @@ ros2 launch localization_mapping online_sync_launch.py
 ```
 Open spawn robot
 ``` 
-ros2 launch arabian_robot arabian_localization&Nav2.launch.py 
+ros2 launch arabian_robot arabian_mapping.launch.py 
 ```
 Save map
 ```
@@ -36,7 +36,7 @@ ros2 launch localization_mapping navigation.launch.py
 ```
 Open spawn robot
 ``` 
-ros2 launch arabian_robot arabian_localization&Nav2.launch.py 
+ros2 launch arabian_robot arabian_localization_Nav2.launch.py 
 ```
 
 [Watch Video](https://drive.google.com/file/d/1Mdbh5qZR7xEDJG6i__6BwaaVV5frPcUn/view?usp=drive_link)
