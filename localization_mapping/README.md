@@ -38,3 +38,5 @@ Open spawn robot
 ``` 
 ros2 launch arabian_robot arabian_localization.launch.py 
 ```
+
+[Watch Video](https://drive.google.com/file/d/1Mdbh5qZR7xEDJG6i__6BwaaVV5frPcUn/view?usp=drive_link)
