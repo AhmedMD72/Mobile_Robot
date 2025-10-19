@@ -12,7 +12,7 @@ def generate_launch_description():
     pkg_bme_ros2_navigation = get_package_share_directory('bme_ros2_navigation')
 
     gazebo_models_path, ignore_last_dir = os.path.split(pkg_bme_ros2_navigation)
-    os.environ["GZ_SIM_RESOURCE_PATH"] += os.pathsep + gazebo_models_path
+    os.environ["GZ_SIM_RESOURCE_PATH"] = os.environ.get("GZ_SIM_RESOURCE_PATH", "") + os.pathsep + gazebo_models_path
 
     rviz_launch_arg = DeclareLaunchArgument(
         'rviz', default_value='true',
