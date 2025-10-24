@@ -77,10 +77,9 @@ ros2 launch arabian_robot arabian_localization_Nav2.launch.py
 Step 3 — Send a Navigation Goal
 
 In RViz2:
-
-Click 2D Goal Pose
-
-Choose a target location
+-Click 2D Goal Pose
+-Choose a target location
 
 Robot will plan and drive autonomously to the goal.
+
 [Watch Video](https://drive.google.com/file/d/1Mdbh5qZR7xEDJG6i__6BwaaVV5frPcUn/view?usp=drive_link)
