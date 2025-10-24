@@ -19,3 +19,6 @@ venv/
 # Other system files
 .DS_Store
 Thumbs.db
+
+# PKG files
+Week-5-6-Gazebo-sensors/
