@@ -21,4 +21,8 @@ venv/
 Thumbs.db
 
 # PKG files
-.Week-5-6-Gazebo-sensors/
+Week-5-6-Gazebo-sensors/
+Week-7-8-ROS2-Navigation/
+slam_toolbox/
+robot_localization/
+maps/
