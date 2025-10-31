@@ -56,4 +56,4 @@ ip addr show | grep inet
 ros2 topic pub /cmd_vel geometry_msgs/msg/Twist "{linear: {x0 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}"
 ```
 # dds
-
+# e
