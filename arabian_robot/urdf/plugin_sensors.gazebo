@@ -69,12 +69,28 @@
 </gazebo> -->
 
 <gazebo reference="gps_Link">
-    <sensor name="navsat" type="navsat">
-      <always_on>1</always_on>
-      <update_rate>1</update_rate>
-      <topic>navsat</topic>
-      <gz_frame_id>gps_Link</gz_frame_id>
-    </sensor>
+      <sensor name="navsat" type="navsat">
+    <always_on>true</always_on>
+    <update_rate>1</update_rate>
+    <topic>navsat</topic>
+    <gz_frame_id>gps_Link</gz_frame_id>
+    <navsat>
+      <position_sensing>
+        <horizontal>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>0.0</stddev>
+          </noise>
+        </horizontal>
+        <vertical>
+          <noise type="gaussian">
+            <mean>0.0</mean>
+            <stddev>0.0</stddev>
+          </noise>
+        </vertical>
+      </position_sensing>
+    </navsat>
+  </sensor>
   </gazebo>
 
 <!-- <gazebo>
